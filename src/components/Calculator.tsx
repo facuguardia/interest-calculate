@@ -20,13 +20,13 @@ function Calculator({
           value={inputValue}
           onChange={handleInputChange}
           placeholder="Ingresa un valor"
-          className="px-4 py-2 border rounded-md text-black"
+          className="px-4 py-2 border rounded-md text-black font-medium"
         />
       </div>
       {calculatedValue !== null && (
         <div className="mt-4 text-xl">
           <p>
-            El 1.5% de {inputValue} es{" "}
+            El 1.5% de <span className="text-2xl font-semibold text-blue-300">$ {inputValue}</span> es{" "}
             <span className="text-2xl font-semibold text-red-500">
               {" "}
               $ {calculatedValue}

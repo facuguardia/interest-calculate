@@ -6,7 +6,7 @@ import Header from "../components/Header";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Calculadora de interes de VEP - BCM",
+  title: "Calculadora BCM",
   description: "Calculá de forma simple el recargo por el pago de boletos VEP de AFIP",
 };
 
